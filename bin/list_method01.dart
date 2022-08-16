@@ -1,12 +1,15 @@
 
-List func(List list1,List list2){
-  List x = list1+list2;
+List  func(List list1,String a){
+  List x = list1+[a];
   list1.add(x);
   return x;
 }
 
 
+
+
+
 void main() {
-  print(func(['olma','anor','nok'],['banan']));
+  print(func(['olma','anor','nok'],'banan'));
   
 }
