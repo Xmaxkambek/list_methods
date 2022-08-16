@@ -7,5 +7,14 @@
     Returns:
         list: return answer
 */
+import 'list_method01.dart';
 
-void main() {}
+List fnuc(List fruits1, List fruits2){
+fruits1.addAll(fruits2);
+return fruits1; 
+}
+
+
+void main() {
+  print(func(['olma','gilos'],['bexi','anor']));
+}
