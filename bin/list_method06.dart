@@ -7,4 +7,19 @@
         int: return answer
 */
 
-void main() {}
+int func(List fruits){
+  int a = 0;
+  int b = 0;
+  int c = fruits.length;
+  while(c > a){
+    if(fruits[a] == 'olma'){
+      b += 1;
+    }
+    a += 1;
+  }
+  return b;
+}
+
+void main() {
+  print(func(['olma','banan','olma','anor']));
+}
