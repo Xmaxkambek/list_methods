@@ -6,9 +6,6 @@ List func(List list1,List list2){
 }
 
 
-
-
-
 void main() {
   print(func(['olma','anor','nok'],['banan']));
   
