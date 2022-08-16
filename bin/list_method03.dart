@@ -10,11 +10,12 @@
 import 'list_method01.dart';
 
 List fnuc(List fruits1, List fruits2){
-fruits1.addAll(fruits2);
+;
+[fruits1.add(fruits2)];
 return fruits1;
 }
 
 
 void main() {
-  print(func(['oolma','anor'],['nok','banan']));
+  print(func(['olma','anor'],['nok','banan']));
 }
