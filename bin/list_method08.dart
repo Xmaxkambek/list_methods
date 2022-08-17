@@ -4,7 +4,18 @@
     Args:
         fruits(list): parameter
     Returns:
-        list: return answer
+        list: return 
 */
+List func(List fruits){
+  int c = fruits.length;
+  while (fruits.remove('apple')){
 
-void main() {}
+  }
+
+ return fruits;
+ }
+
+
+void main() {
+  print(func(['anor','sdf','apple', 'apple']));
+}
