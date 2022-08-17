@@ -21,5 +21,5 @@ int func(List fruits){
 }
 
 void main() {
-  print(func(['olma','banan','olma','anor']));
+  print(func(['olma','olma','olma','anor']));
 }
